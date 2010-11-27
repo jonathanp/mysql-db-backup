@@ -1,0 +1,1 @@
+Script for backing up MySQL database dumps to an Amazon S3 bucket. Will (optionally) split Wordpress Multisite dumps into individual files.
