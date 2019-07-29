@@ -3,7 +3,7 @@
  * Script for backing up MySQL database dumps to an Amazon S3 bucket. Will (optionally) split
  * Wordpress Multisite dumps into individual files.
  *
- * @author Jonathan Persson
+ * @author Jonathan Svenheden
  * @version 2010-11-27
  */
 
@@ -15,7 +15,7 @@ define('GZIP_DUMP_FILES', true); // compress the database dumps
 
 define('ZF_PATH', '/usr/share/php/ZendFramework-1.10.5/library'); // path to the Zend Framework library
 define('MYSQLDUMP', '/usr/bin/mysqldump'); // path to the the mysqldump binary
-define('DUMPS_PATH', '/home/jonathanp/backup_tmp/' . $timestamp); // path to where the database dumps are stored
+define('DUMPS_PATH', '/home/svenheden/backup_tmp/' . $timestamp); // path to where the database dumps are stored
 
 define('DB_ADAPTER', 'PDO_MYSQL');
 define('DB_HOST', 'localhost');
